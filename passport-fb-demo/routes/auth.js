@@ -1,13 +1,10 @@
 ﻿var express = require('express');
 var router = express.Router();
-
-//var FACEBOOK_APP_ID = "--insert-facebook-app-id-here--";
-//var FACEBOOK_APP_SECRET = "--insert-facebook-app-secret-here--";
 var passport = require('passport')
   , FacebookStrategy = require('passport-facebook').Strategy;
 
-var FACEBOOK_APP_ID = "438618766314794";
-var FACEBOOK_APP_SECRET = "8693afaf6694e37945df2aadc8530db5";
+var FACEBOOK_APP_ID = "--insert-facebook-app-id-here--";
+var FACEBOOK_APP_SECRET = "--insert-facebook-app-secret-here--";
 
 // Use the FacebookStrategy within Passport.
 //   Strategies in Passport require a `verify` function, which accept
